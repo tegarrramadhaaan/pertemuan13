@@ -16,6 +16,6 @@ int main ()
         cout << e.what() << endl;
     }
 
-    cout 
+    cout << "baris program yang terakhir" 
     
 }
