@@ -27,3 +27,13 @@ cout << ">= Menulis File, \'q\' untuk keluar" << endl;
         outfile << baris << endl;
     }
 
+outfile.close();
+
+ifstream infile;
+
+infile.open(namafile + ". txt", ios :: out);
+
+cout << endl
+     << ">= membuka dan membaca file " << endl;
+
+if (infile.is_open())
