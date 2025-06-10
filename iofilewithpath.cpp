@@ -37,3 +37,15 @@ cout << endl
      << ">= membuka dan membaca file " << endl;
 
 if (infile.is_open())
+{
+    while (getline(infile, baris))
+    {
+       cout << baris << '\n';
+    }
+
+    infile.close();
+}
+else
+  cout << "unable to open this file";
+  return 0;
+}
