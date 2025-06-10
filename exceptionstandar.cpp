@@ -13,7 +13,7 @@ int main ()
     }
     catch(exception &e)
     {
-        cout << e.what() << endl;
+        cout << e.what() << 
     }
 
     cout << "baris program yang terakhir" << endl;
